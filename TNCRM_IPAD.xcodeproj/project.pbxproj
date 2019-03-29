@@ -12,7 +12,8 @@
 		946B9976224E3A900012EE15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946B9974224E3A900012EE15 /* Main.storyboard */; };
 		946B9978224E3A930012EE15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 946B9977224E3A930012EE15 /* Assets.xcassets */; };
 		946B997B224E3A930012EE15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946B9979224E3A930012EE15 /* LaunchScreen.storyboard */; };
-		946B9983224E44AF0012EE15 /* GoogleService-Info-1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 946B9982224E44AE0012EE15 /* GoogleService-Info-1.plist */; };
+		946B9987224E46BC0012EE15 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 946B9986224E46BC0012EE15 /* GoogleService-Info.plist */; };
+		946B9989224E49F40012EE15 /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946B9988224E49F40012EE15 /* ConfirmViewController.swift */; };
 		D4E6C9F54EE9DE14F51F7FA5 /* Pods_TNCRM_IPAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F228CC611D12CC42FB6B0E93 /* Pods_TNCRM_IPAD.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +27,8 @@
 		946B9977224E3A930012EE15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		946B997A224E3A930012EE15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		946B997C224E3A930012EE15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		946B9982224E44AE0012EE15 /* GoogleService-Info-1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-1.plist"; sourceTree = "<group>"; };
+		946B9986224E46BC0012EE15 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		946B9988224E49F40012EE15 /* ConfirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmViewController.swift; sourceTree = "<group>"; };
 		F228CC611D12CC42FB6B0E93 /* Pods_TNCRM_IPAD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TNCRM_IPAD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -56,7 +58,6 @@
 				157969BAE85B264C27CC3869 /* Pods-TNCRM_IPAD.debug.xcconfig */,
 				8752A072759400D684F48B4B /* Pods-TNCRM_IPAD.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -83,11 +84,12 @@
 			children = (
 				946B9970224E3A900012EE15 /* AppDelegate.swift */,
 				946B9972224E3A900012EE15 /* ViewController.swift */,
+				946B9988224E49F40012EE15 /* ConfirmViewController.swift */,
 				946B9974224E3A900012EE15 /* Main.storyboard */,
 				946B9977224E3A930012EE15 /* Assets.xcassets */,
 				946B9979224E3A930012EE15 /* LaunchScreen.storyboard */,
 				946B997C224E3A930012EE15 /* Info.plist */,
-				946B9982224E44AE0012EE15 /* GoogleService-Info-1.plist */,
+				946B9986224E46BC0012EE15 /* GoogleService-Info.plist */,
 			);
 			path = TNCRM_IPAD;
 			sourceTree = "<group>";
@@ -153,7 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				946B997B224E3A930012EE15 /* LaunchScreen.storyboard in Resources */,
-				946B9983224E44AF0012EE15 /* GoogleService-Info-1.plist in Resources */,
+				946B9987224E46BC0012EE15 /* GoogleService-Info.plist in Resources */,
 				946B9978224E3A930012EE15 /* Assets.xcassets in Resources */,
 				946B9976224E3A900012EE15 /* Main.storyboard in Resources */,
 			);
@@ -217,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				946B9989224E49F40012EE15 /* ConfirmViewController.swift in Sources */,
 				946B9973224E3A900012EE15 /* ViewController.swift in Sources */,
 				946B9971224E3A900012EE15 /* AppDelegate.swift in Sources */,
 			);
